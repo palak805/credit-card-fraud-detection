@@ -14,7 +14,7 @@ st.set_page_config(
 with open("fraud_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-df = pd.read_csv("creditcard.csv")
+df = pd.read_csv("creditcard_sample.csv")
 
 
 st.write("Machine Learning based system for detecting fraudulent credit card transactions.")
